@@ -1,29 +1,12 @@
-# vue-app
+vue-cli 3.0 初始化项目
 
-## Project setup
-```
-yarn install
-```
+配置了 element-ui , axios , less , qs , vue全家桶等。
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+yarn install ---- 下载模块
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+yarn run serve -----运行开发环境
 
-### Run your tests
-```
-yarn run test
-```
+yarn run build -----打包
 
-### Lints and fixes files
-```
-yarn run lint
-```
+yarn run test ------运行自定义（test）环境
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
