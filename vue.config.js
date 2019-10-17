@@ -1,4 +1,4 @@
-module.exports = {
+  module.exports = {
   outputDir: process.env.outputDir,
   assetsDir: 'static',
   publicPath: '/',
@@ -11,7 +11,10 @@ module.exports = {
     proxy: {
       '/api': {
         target: 'https://api.apiopen.top',
-        changeOrigin: true
+        changeOrigin: true,
+        pathRewrite: {
+                  '^/api': ''
+              }
       }
     }
   }
